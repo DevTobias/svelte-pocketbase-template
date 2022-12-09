@@ -1,0 +1,12 @@
+version: "3"
+
+tasks:
+  start-cms:
+    desc: Setups and starts the cms
+    cmds:
+      - docker compose -f cms/docker/docker-compose.yml -p trophoria-cms up -d
+
+  stop-cms:
+    desc: Removes and stops the cms
+    cmds:
+      - docker-compose -f cms/docker/docker-compose.yml -p trophoria-cms down

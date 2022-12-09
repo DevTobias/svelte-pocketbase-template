@@ -1,0 +1,8 @@
+{
+  "explorer.fileNesting.patterns": {
+    "pocketbase.go": "go.mod,go.sum,.gitignore"
+  },
+  "material-icon-theme.folders.associations": {
+    "cms": "supabase"
+  }
+}
