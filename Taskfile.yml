@@ -11,6 +11,16 @@ tasks:
     cmds:
       - docker-compose -f cms/docker/docker-compose.yml -p trophoria-cms down
 
+  start-frontend:
+    desc: Setups and starts the frontend application inside docker
+    cmds:
+      - docker compose -f frontend/docker/docker-compose.yml -p trophoria-frontend up -d
+
+  stop-frontend:
+    desc: Removes and stops the frontend application
+    cmds:
+      - docker-compose -f frontend/docker/docker-compose.yml -p trophoria-frontend down
+
   frontend:
     desc: Runs the provided command in the frontend yarn workspace
     dir: 'frontend'
