@@ -10,3 +10,9 @@ tasks:
     desc: Removes and stops the cms
     cmds:
       - docker-compose -f cms/docker/docker-compose.yml -p trophoria-cms down
+
+  frontend:
+    desc: Runs the provided command in the frontend yarn workspace
+    dir: 'frontend'
+    cmds:
+      - yarn app {{.CLI_ARGS}}
