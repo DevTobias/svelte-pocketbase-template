@@ -28,6 +28,7 @@ module.exports = {
     '@typescript-eslint/explicit-member-accessibility': 'off',
     '@typescript-eslint/no-object-literal-type-assertion': 'off',
     'import/prefer-default-export': 'off',
+    'import/no-unresolved': 'off',
     // v4 changes
     'no-use-before-define': 'off',
     '@typescript-eslint/no-use-before-define': ['error'],

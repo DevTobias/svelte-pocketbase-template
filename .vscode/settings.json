@@ -9,7 +9,7 @@
   "explorer.fileNesting.patterns": {
     "pocketbase.go": "go.mod,go.sum,.gitignore",
     "package.json": ".gitignore,tsconfig.json",
-    "svelte.config.js": "vite.config.js"
+    "svelte.config.js": "vite.config.js,tailwind.config.cjs"
   },
   "material-icon-theme.folders.associations": {
     "cms": "supabase"
